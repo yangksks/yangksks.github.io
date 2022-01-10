@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/프레임워크",
+    "result": {"pageContext":{"currentCategory":"프레임워크","categories":["All","프레임워크","회고"],"edges":[{"node":{"id":"33d1b512-14b1-5468-ad0a-9cbca26f3486","excerpt":"로컬저장소 만들기 Initialized empty Git repository 라는 문구가 나오면 성공 위의 명령어를 실행하면 해당 디렉토리에 [.git]이라는 폴더가 자동으로 생성됩니다. 누가 커밋을 했는지 확인 하기 위한 세팅입니다 커밋은 add->commit->push push 명령어는 원격저장소에 로컬저장소의 커밋을 push 하는 명령어이기 때문에 원격저장소 실습에서 다시 정리하겠습니다. 이전 커밋으로 돌아가기 log 명령어를 통해서 저장된 커밋을 확인할 수 있고 커밋 ID를 복사하여 checkout 명령어를 통해서 버전을 되돌립니다. 커밋 ID 에서 -는 최신 커밋을 의미합니다 원격저장소에 커밋 올리기 우선 로컬저장소에 원격저장소 주소를 등록해야합니다. 그리고 로컬저장소에 있는 커밋들을 push 명령어로 원격저장소에 올립니다. 원격저장소의 커밋을 로컬저장소에 내려받기 원격저장소의 코드와 버전 전체를 내 컴퓨터로 내려받는 것을 클론 이라고 합니다. 원격저장소의 새로운 커밋을 …","fields":{"slug":"/Framwork/git-and-github/"},"frontmatter":{"categories":"프레임워크","title":"(Git) Git과 GitHub","date":"January 07, 2022"}},"next":{"fields":{"slug":"/Retrospection/retrospection-start-blog/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}

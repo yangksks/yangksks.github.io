@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"나의 블로그 목표","categories":"회고"},"fields":{"slug":"/retrospection-start-blog/"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"(Git) Git과 GitHub","categories":"프레임워크"},"fields":{"slug":"/Framwork/git-and-github/"}}},{"node":{"frontmatter":{"title":"나의 블로그 목표","categories":"회고"},"fields":{"slug":"/Retrospection/retrospection-start-blog/"}}}]}}}
