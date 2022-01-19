@@ -16,8 +16,6 @@ categories: TIL
 - 묵시적 형변환, 명시적 형변환
 - 배열과 2차원 배열
 
----
-
 # 1/18
 
 ---
@@ -29,3 +27,12 @@ categories: TIL
   - 메소드 스택
   - 힙 메모리
 - 메서드
+
+# 1/19
+
+---
+
+- 클래스와 생성자
+- scanner 클래스
+- FileInputStream
+- 자바 API 확인
