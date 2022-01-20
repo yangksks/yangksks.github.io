@@ -36,3 +36,12 @@ categories: TIL
 - scanner 클래스
 - FileInputStream
 - 자바 API 확인
+
+# 1/19
+
+---
+
+- 상속의 개념
+- 패키지와 import
+- 데이터 은닉과 싱글톤 패턴
+- 자바의 다형성
