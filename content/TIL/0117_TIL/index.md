@@ -37,7 +37,7 @@ categories: TIL
 - FileInputStream
 - 자바 API 확인
 
-# 1/19
+# 1/20
 
 ---
 
@@ -45,3 +45,10 @@ categories: TIL
 - 패키지와 import
 - 데이터 은닉과 싱글톤 패턴
 - 자바의 다형성
+
+# 1/21
+
+---
+
+- 다형성의 이해
+- 업캐스팅, 다운 캐스팅
