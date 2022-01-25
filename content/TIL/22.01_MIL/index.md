@@ -60,3 +60,10 @@ categories: TIL
 - 추상 클래스, 추상 메서드
 - 인터페이스와 상속
 - 제네릭 타입
+
+# 1/25
+
+---
+
+- Exception 개념
+- Collection 개념
