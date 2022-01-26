@@ -67,3 +67,12 @@ categories: TIL
 
 - Exception 개념
 - Collection 개념
+- boj_1463 sol
+
+# 1/26
+
+---
+
+- 추상화,인터페이스 실습
+- Exception 실습
+- boj_11726,11727 sol
