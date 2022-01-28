@@ -83,3 +83,9 @@ categories: TIL
 
 - File IO
 - XML 파싱
+
+# 1/28
+
+---
+
+- SSAFY 첫 관통 프로젝트
