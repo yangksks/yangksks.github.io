@@ -1,7 +1,7 @@
 ---
 emoji: 🎄
 title: (MIL) 22.01
-date: '2022-01-17 00:00:00'
+date: '2022-01-28 00:00:00'
 author: 양경섭
 tags: TIL
 categories: TIL
