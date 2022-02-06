@@ -28,3 +28,8 @@ categories: TIL
 ---
 
 - swea_2070,2071,2072 sol
+
+# 02/06
+---
+
+- swea_D1 all sol
