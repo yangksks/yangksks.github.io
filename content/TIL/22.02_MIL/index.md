@@ -33,3 +33,10 @@ categories: TIL
 ---
 
 - swea_D1 all sol
+
+# 02/07
+---
+
+- 순열, 부분집합, 조합
+- boj_2493 sol
+- swea_1284,5215,1218 sol
