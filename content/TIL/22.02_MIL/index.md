@@ -72,4 +72,12 @@ categories: TIL
 - Comparable/Comparator 학습
 - 순열 비트마스크, NextPermutation 학습
 - boj_1244,2961
+
+# 02/15
+---
+
+- 조합 NextPermutation, 바이너리 카운트 학습
+- 탐욕기법 학습
+- 분할 알고리즘, 이진검색 학습
 - Jol_1828
+- boj_1074,2839,10829,10828,10799,9012
