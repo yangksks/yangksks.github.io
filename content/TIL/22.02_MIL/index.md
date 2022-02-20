@@ -65,3 +65,11 @@ categories: TIL
 ---
 
 - swea_1223,1224,1861 Sol
+
+# 02/14
+---
+
+- Comparable/Comparator 학습
+- 순열 비트마스크, NextPermutation 학습
+- boj_1244,2961
+- Jol_1828
