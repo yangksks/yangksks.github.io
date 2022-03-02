@@ -1,7 +1,7 @@
 ---
 emoji: 🎀
 title: (MIL) 22.02
-date: '2022-02-05 00:00:00'
+date: '2022-02-28 00:00:00'
 author: 양경섭
 tags: TIL
 categories: TIL
