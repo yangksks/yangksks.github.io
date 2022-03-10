@@ -48,3 +48,9 @@ categories: TIL
 ---
 
 - boj_2178,1697,2206
+
+# 03/10
+
+---
+
+- Jquery, Ajax 맛보기
