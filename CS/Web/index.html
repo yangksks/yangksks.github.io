@@ -64,137 +64,135 @@
         }
       }
     })
-  </script><title data-react-helmet="true">(FrontEnd) CSR과 SSR</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="(FrontEnd) CSR과 SSR"/><meta data-react-helmet="true" property="og:site_title" content="(FrontEnd) CSR과 SSR"/><meta data-react-helmet="true" name="description" content="SSR의 정의와 설명  단계 User가 Website 요청을 보냄 Server는 ‘Ready to Render’ 즉, 즉시 렌더링 가능한 html 파일을 만든다. 클라이언트에 전달되는 순간, 이미 렌더링 준비가 되어있기 때문에 HTML은 즉시 렌더링 된다. 그러나 사이트 자체는 조작 불가능하다. (JavaScript 가 읽히기 전) 클라이언트가 자바스크립트를 다운받는다. 다운 받아지고 있는 사이에 유저는 컨텐츠는 볼 수 있지만 사이트를 조작 할 수는 없다.
-이때의 사용자 조작을 기억하고 있는다. 브라우저가 JavaScript 프레임워크를 실행한다. JS까지 성공적으로 컴파일 되었기 때문에 기억하고 있던 사용자 조작이 실행되고 이제 웹 페이지는 상호작용 가능해진다. CSR의 정의와 설명 Untitled User가 Website 요청을 보냄 CDN이 HTML 파일과 JS로 접근할 수 있는 링크를 클라이언트로 보낸다. 클라이언트는 HTML과 JS를 다운로드 받는다.
-( 이때 SSR과 달…"/><meta data-react-helmet="true" property="og:description" content="SSR의 정의와 설명  단계 User가 Website 요청을 보냄 Server는 ‘Ready to Render’ 즉, 즉시 렌더링 가능한 html 파일을 만든다. 클라이언트에 전달되는 순간, 이미 렌더링 준비가 되어있기 때문에 HTML은 즉시 렌더링 된다. 그러나 사이트 자체는 조작 불가능하다. (JavaScript 가 읽히기 전) 클라이언트가 자바스크립트를 다운받는다. 다운 받아지고 있는 사이에 유저는 컨텐츠는 볼 수 있지만 사이트를 조작 할 수는 없다.
-이때의 사용자 조작을 기억하고 있는다. 브라우저가 JavaScript 프레임워크를 실행한다. JS까지 성공적으로 컴파일 되었기 때문에 기억하고 있던 사용자 조작이 실행되고 이제 웹 페이지는 상호작용 가능해진다. CSR의 정의와 설명 Untitled User가 Website 요청을 보냄 CDN이 HTML 파일과 JS로 접근할 수 있는 링크를 클라이언트로 보낸다. 클라이언트는 HTML과 JS를 다운로드 받는다.
-( 이때 SSR과 달…"/><meta data-react-helmet="true" property="og:author" content="양경섭"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v29/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-bc5faa41d93a2271fdd7.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-57dbb2510c69b49a61bd.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"/><link as="fetch" rel="preload" href="/page-data/CS/Web/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">yangksks.github.io</a></div><div class="trailing-section"><a class="link" href="/about">about</a><a class="link" href="/posts">posts</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">🥽</div><div class="info"><div class="categories"><a class="category" href="/posts/CS">CS</a></div></div><h1 class="title">(FrontEnd) CSR과 SSR</h1><div class="info"><div class="author">posted by <strong>양경섭</strong>,</div> <!-- -->June 18, 2022</div></header><div class="post-content"><div class="markdown"><h1 id="ssr의-정의와-설명" style="position:relative;"><a href="#ssr%EC%9D%98-%EC%A0%95%EC%9D%98%EC%99%80-%EC%84%A4%EB%AA%85" aria-label="ssr의 정의와 설명 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSR의 정의와 설명</h1>
-<hr>
-<aside>
-💡 Server Side Rendering의 약자
-</aside>
-<p><span
-      class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 720px; "
-    >
-      <span
-    class="gatsby-resp-image-background-image"
-    style="padding-bottom: 56.111111111111114%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACL0lEQVQoz0WSy27aUBCGeYG+aJ+k+6ht1EXVVRfZVKoCyapVmyiYcAtgoGAIxICvmHPxAUWRqq86p4Uuxj4zPvPNPzOuvHx9DW9eobIQqfeYvSLbxTSbLcIwRGuNLhXrKOT9+Tk3NzcYY1BKEQQzbttdBr6P1spZxUy+cfA+IIuc8qDZjEvaFwLv3uPpKaQ0GpkbOj8Czt6eUatdIaVkv98zm8/5MpozmAaIonBFKtI8Iw6/kVJRHhTLvqB5kbPZbEiT1KkrUsW8nzCbB6xWK5doofY8DwKiKEJp7WIVJQW6LFBauPaybYrXvKXVauL7A7IscyrHkyGeV2c4HFIUhUvu9/s0Gp6LHYtUtllB9/Mz7U8vZEuD1II4ilkvU6RQKCWd+izPeJpvKLY7lP6bbIutFgnRJna+a1kUktuPKd/fxTyOIwe0w91Fe5QoT0ClJSI+oIRxZyWVu7uNNVqV/xUKIRhOekwfR8RJhFKaya8p1VqNXq/nLtqtzmYzalc12p0OSmq0kaynAv9asRpJ59vCFZtgK2hlMAfNdvHMw88F1etLup0HN1cLXCwWXFarNLwWu0xjDopkZhhWDethSbn/p9A+jmbhVl23/cBoNML3fYIgIM9zxuMxk8nELSBNU+I4dt+tH4Yrtyg3w2Pvx7cF9Ad9B7AtL5dLB2w0GtTr9dMYbPzu7s7FPc9z9y3UAY9mgbbFsixPZn07Z6vK/m+73c7FbLKNJUlCHCcnxh85ByQzZaqbAQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
-  ></span>
-  <img
-        class="gatsby-resp-image-image"
-        alt="Untitled"
-        title="Untitled"
-        src="/static/0fa47ca8d019ad0efa3acce7cf1a18af/37523/Untitled.png"
-        srcset="/static/0fa47ca8d019ad0efa3acce7cf1a18af/e9ff0/Untitled.png 180w,
-/static/0fa47ca8d019ad0efa3acce7cf1a18af/f21e7/Untitled.png 360w,
-/static/0fa47ca8d019ad0efa3acce7cf1a18af/37523/Untitled.png 720w,
-/static/0fa47ca8d019ad0efa3acce7cf1a18af/302a4/Untitled.png 1080w,
-/static/0fa47ca8d019ad0efa3acce7cf1a18af/21b4d/Untitled.png 1280w"
-        sizes="(max-width: 720px) 100vw, 720px"
-        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
-        loading="lazy"
-        decoding="async"
-      />
-    </span></p>
-<h2 id="단계" style="position:relative;"><a href="#%EB%8B%A8%EA%B3%84" aria-label="단계 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>단계</h2>
-<ol>
-<li>User가 Website 요청을 보냄</li>
-<li>Server는 ‘Ready to Render’ 즉, 즉시 렌더링 가능한 html 파일을 만든다.</li>
-<li>클라이언트에 전달되는 순간, 이미 렌더링 준비가 되어있기 때문에 HTML은 즉시 렌더링 된다. 그러나 사이트 자체는 조작 불가능하다. (JavaScript 가 읽히기 전)</li>
-<li>클라이언트가 자바스크립트를 다운받는다.</li>
-<li>다운 받아지고 있는 사이에 유저는 컨텐츠는 볼 수 있지만 사이트를 조작 할 수는 없다.
-이때의 사용자 조작을 기억하고 있는다.</li>
-<li>브라우저가 JavaScript 프레임워크를 실행한다.</li>
-<li>JS까지 성공적으로 컴파일 되었기 때문에 기억하고 있던 사용자 조작이 실행되고 이제 웹 페이지는 상호작용 가능해진다.</li>
-</ol>
-<h1 id="csr의-정의와-설명" style="position:relative;"><a href="#csr%EC%9D%98-%EC%A0%95%EC%9D%98%EC%99%80-%EC%84%A4%EB%AA%85" aria-label="csr의 정의와 설명 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSR의 정의와 설명</h1>
-<aside>
-💡 Client Side Rendering의 약자
-</aside>
-<p><img src="Untitled%201.png" alt="Untitled"></p>
-<ol>
-<li>User가 Website 요청을 보냄</li>
-<li>CDN이 HTML 파일과 JS로 접근할 수 있는 링크를 클라이언트로 보낸다.</li>
-<li>클라이언트는 HTML과 JS를 다운로드 받는다.
-( 이때 SSR과 달리 유저는 아무것도 볼 수 없다 )</li>
-<li>다운이 완료된 JS가 실행된다. 데이터를 위한 API가 호출된다.</li>
-<li>서버가 API로부터의 요청에 응답한다.
-( 이때 유저들은 placeholder 를 보게된다</li>
-<li>API로부터 받아온 data를 placeholder 자리에 넣어준다. 이제 페이지는 상호작용이 가능해진다</li>
-</ol>
-<h1 id="차이점" style="position:relative;"><a href="#%EC%B0%A8%EC%9D%B4%EC%A0%90" aria-label="차이점 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>차이점</h1>
-<h2 id="ssr" style="position:relative;"><a href="#ssr" aria-label="ssr permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSR</h2>
+  </script><title data-react-helmet="true">(Git) Git Bash를 시작해보자</title><meta data-react-helmet="true" name="viewport" content="initial-scale=1, width=device-width"/><meta data-react-helmet="true" property="og:title" content="(Git) Git Bash를 시작해보자"/><meta data-react-helmet="true" property="og:site_title" content="(Git) Git Bash를 시작해보자"/><meta data-react-helmet="true" name="description" content="로컬저장소 만들기 명령어 설명 git status git 워킹트리의 상태를 보여준다 git status -s git status 명령을 짧게 요약해서 보여준다 git init 현재 폴더에 Git 저장소를 생성한다 Git 저장소 초기화 Initialized empty Git repository 라는 문구가 나오면 성공 위의 명령어를 실행하면 해당 디렉토리에 [.git]이라는 폴더가 자동으로 생성됩니다. 옵션 설정하기 누가 커밋을 했는지 확인 하기 위한 세팅입니다 기본 CLI 명령어 기본적인 git 명령들 CLI로 log 살펴보기 💡 좋은 커밋 메시지의 7가지 규칙 제목과 본문을 빈 줄로 분리한다 제목은 50자 이내로 쓴다 제목을 영어로 쓸 경우 첫 글자는 대문자로 쓴다 제목에는 마침표를 넣지 않는다 제목을 영어로 쓸 경우 동사원형으로 시작한다 본문을 72자 단위로 줄바꿈한다. 어떻게 보다 무엇과 왜를 설명한다. reset 명령어로 언스테이징하기 원격저장소 관련 CLI 명령어 명령어 …"/><meta data-react-helmet="true" property="og:description" content="로컬저장소 만들기 명령어 설명 git status git 워킹트리의 상태를 보여준다 git status -s git status 명령을 짧게 요약해서 보여준다 git init 현재 폴더에 Git 저장소를 생성한다 Git 저장소 초기화 Initialized empty Git repository 라는 문구가 나오면 성공 위의 명령어를 실행하면 해당 디렉토리에 [.git]이라는 폴더가 자동으로 생성됩니다. 옵션 설정하기 누가 커밋을 했는지 확인 하기 위한 세팅입니다 기본 CLI 명령어 기본적인 git 명령들 CLI로 log 살펴보기 💡 좋은 커밋 메시지의 7가지 규칙 제목과 본문을 빈 줄로 분리한다 제목은 50자 이내로 쓴다 제목을 영어로 쓸 경우 첫 글자는 대문자로 쓴다 제목에는 마침표를 넣지 않는다 제목을 영어로 쓸 경우 동사원형으로 시작한다 본문을 72자 단위로 줄바꿈한다. 어떻게 보다 무엇과 왜를 설명한다. reset 명령어로 언스테이징하기 원격저장소 관련 CLI 명령어 명령어 …"/><meta data-react-helmet="true" property="og:author" content="양경섭"/><meta data-react-helmet="true" property="og:image" content="/og-image.png"/><meta data-react-helmet="true" property="og:type" content="website"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2"/><link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/static/webfonts/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2"/><style>@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:300;src:url(/static/webfonts/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc-.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:400;src:url(/static/webfonts/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxM.woff) format("woff")}@font-face{font-display:swap;font-family:Roboto;font-style:normal;font-weight:500;src:url(/static/webfonts/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc-.woff) format("woff")}</style><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><style>.gatsby-image-wrapper{position:relative;overflow:hidden}.gatsby-image-wrapper picture.object-fit-polyfill{position:static!important}.gatsby-image-wrapper img{bottom:0;height:100%;left:0;margin:0;max-width:none;padding:0;position:absolute;right:0;top:0;width:100%;object-fit:cover}.gatsby-image-wrapper [data-main-image]{opacity:0;transform:translateZ(0);transition:opacity .25s linear;will-change:opacity}.gatsby-image-wrapper-constrained{display:inline-block;vertical-align:top}</style><noscript><style>.gatsby-image-wrapper noscript [data-main-image]{opacity:1!important}.gatsby-image-wrapper [data-placeholder-image]{opacity:0!important}</style></noscript><script type="module">const e="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;e&&document.body.addEventListener("load",(function(e){if(void 0===e.target.dataset.mainImage)return;if(void 0===e.target.dataset.gatsbyImageSsr)return;const t=e.target;let a=null,n=t;for(;null===a&&n;)void 0!==n.parentNode.dataset.gatsbyImageWrapper&&(a=n.parentNode),n=n.parentNode;const o=a.querySelector("[data-placeholder-image]"),r=new Image;r.src=t.currentSrc,r.decode().catch((()=>{})).then((()=>{t.style.opacity=1,o&&(o.style.opacity=0,o.style.transition="opacity 500ms linear")}))}),!0);</script><link as="script" rel="preload" href="/webpack-runtime-bc5faa41d93a2271fdd7.js"/><link as="script" rel="preload" href="/framework-0e1bf37de02f7cef2174.js"/><link as="script" rel="preload" href="/app-57dbb2510c69b49a61bd.js"/><link as="script" rel="preload" href="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js"/><link as="script" rel="preload" href="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"/><link as="fetch" rel="preload" href="/page-data/CS/Web/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1073350324.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1956554647.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2938748437.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="page-wrapper"><header class="page-header-wrapper"><div class="page-header"><div class="front-section"><a class="link" href="/">yangksks.github.io</a></div><div class="trailing-section"><a class="link" href="/about">about</a><a class="link" href="/posts">posts</a><div class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-1l6di18" role="combobox" aria-expanded="false"><div class="search-input-wrapper"><div class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-input css-feqhe6"><div class="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-11tfndm"><input type="text" aria-invalid="false" autoComplete="off" value="" class="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-mnn31" aria-autocomplete="list" autoCapitalize="none" spellcheck="false"/><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium search-icon css-vubbuv" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="SearchOutlinedIcon"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></div></div></div></div></div></div></header><main class="page-content"><header class="post-header"><div class="emoji">🥽</div><div class="info"><div class="categories"><a class="category" href="/posts/프레임워크">프레임워크</a></div></div><h1 class="title">(Git) Git Bash를 시작해보자</h1><div class="info"><div class="author">posted by <strong>양경섭</strong>,</div> <!-- -->January 16, 2022</div></header><div class="post-content"><div class="markdown"><h1 id="로컬저장소-만들기" style="position:relative;"><a href="#%EB%A1%9C%EC%BB%AC%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%A7%8C%EB%93%A4%EA%B8%B0" aria-label="로컬저장소 만들기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>로컬저장소 만들기</h1>
+<table>
+<thead>
+<tr>
+<th>명령어</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>git status</td>
+<td>git 워킹트리의 상태를 보여준다</td>
+</tr>
+<tr>
+<td>git status -s</td>
+<td>git status 명령을 짧게 요약해서 보여준다</td>
+</tr>
+<tr>
+<td>git init</td>
+<td>현재 폴더에 Git 저장소를 생성한다</td>
+</tr>
+</tbody>
+</table>
+<h3 id="git-저장소-초기화" style="position:relative;"><a href="#git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%B4%88%EA%B8%B0%ED%99%94" aria-label="git 저장소 초기화 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Git 저장소 초기화</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> init <span class="token comment"># Git 저장소 생성</span>
+
+$ <span class="token function">ls</span> -a <span class="token comment"># 파일 목록 확인</span>
+
+$ <span class="token function">git</span> status <span class="token comment"># 워킹 트리 상태 확인</span></code></pre></div>
 <ul>
-<li>장점
-<ol>
-<li>SEO , 검색엔진 최적화에 유리하다.</li>
-<li>빠른 초기 로딩</li>
-</ol>
-</li>
-<li>단점
-<ol>
-<li>사용자 경험
-<ol>
-<li>TTV( Time To View ) 와 TTI( Time To Interact ) 간에 시간 간격</li>
-<li>요청시 마다 새로고침 → 깜빡임</li>
-</ol>
-</li>
-<li>서버 부하 : 페이지 전체를 서버에서 렌더링하기때문에 요청이 많으면 부하 위험이있다.</li>
-</ol>
-</li>
+<li><strong>Initialized empty Git repository</strong> 라는 문구가 나오면 성공</li>
+<li>위의 명령어를 실행하면 해당 디렉토리에 [.git]이라는 폴더가 자동으로 생성됩니다.</li>
 </ul>
-<h2 id="csr" style="position:relative;"><a href="#csr" aria-label="csr permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSR</h2>
+<h3 id="옵션-설정하기" style="position:relative;"><a href="#%EC%98%B5%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0" aria-label="옵션 설정하기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>옵션 설정하기</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> config --global <span class="token operator">&lt;</span>옵션명<span class="token operator">></span> <span class="token comment"># 지정한 전역 옵션의 내용을 확인</span>
+
+$ <span class="token function">git</span> config --global <span class="token operator">&lt;</span>옵션명<span class="token operator">></span> <span class="token operator">&lt;</span>새로운 값<span class="token operator">></span> <span class="token comment"># 지정한 전역 옵션의 값을 새로 설정</span>
+
+$ <span class="token function">git</span> config --global --unset <span class="token operator">&lt;</span>옵션명<span class="token operator">></span> <span class="token comment"># 지정한 전역 옵션을 삭제</span>
+
+$ <span class="token function">git</span> config --local <span class="token operator">&lt;</span>옵션명<span class="token operator">></span> <span class="token comment"># 지정한 지역 옵션의 내용을 확인</span>
+
+$ <span class="token function">git</span> config --local <span class="token operator">&lt;</span>옵션명<span class="token operator">></span> <span class="token operator">&lt;</span>새로운 값<span class="token operator">></span>
+
+$ <span class="token function">git</span> conifg --local --unset <span class="token operator">&lt;</span>옵션명<span class="token operator">></span></code></pre></div>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> config --global user.email <span class="token string">"&lt;이메일>"</span>
+$ <span class="token function">git</span> config --global user.name <span class="token string">"&lt;이름>"</span></code></pre></div>
 <ul>
-<li>장점
+<li>누가 커밋을 했는지 확인 하기 위한 세팅입니다</li>
+</ul>
+<h1 id="기본-cli-명령어" style="position:relative;"><a href="#%EA%B8%B0%EB%B3%B8-cli-%EB%AA%85%EB%A0%B9%EC%96%B4" aria-label="기본 cli 명령어 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>기본 CLI 명령어</h1>
+<h3 id="기본적인-git-명령들" style="position:relative;"><a href="#%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-git-%EB%AA%85%EB%A0%B9%EB%93%A4" aria-label="기본적인 git 명령들 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>기본적인 git 명령들</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> <span class="token function">add</span> 파일1 파일2 <span class="token punctuation">..</span>. <span class="token comment"># 파일들을 스테이지에 추가</span>
+
+$ <span class="token function">git</span> commit <span class="token comment"># 스테이지에 있는 파일들을 커밋</span>
+
+$ <span class="token function">git</span> commit -a <span class="token comment"># add명령을 생략하고 바로 커밋 , 단 untracked 파일은 커밋 X</span>
+
+$ <span class="token function">git</span> push <span class="token punctuation">[</span>-u<span class="token punctuation">]</span> <span class="token punctuation">[</span>원격저장소별명<span class="token punctuation">]</span> <span class="token punctuation">[</span>브랜치이름<span class="token punctuation">]</span> <span class="token comment"># 현재 브랜치에서 새로 생성한 커밋들을</span>
+<span class="token comment"># 원격저장소에 업로드, -u 옵션으로 브랜치의 업스트림을 등록할 수 있다.</span>
+
+$ <span class="token function">git</span> pull <span class="token comment"># 원격저장소의 변경사항을 워킹트리에 반영한다</span></code></pre></div>
+<h3 id="cli로-log-살펴보기" style="position:relative;"><a href="#cli%EB%A1%9C-log-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0" aria-label="cli로 log 살펴보기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CLI로 log 살펴보기</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> log <span class="token comment"># 현재 브랜치의 커밋 이력을 보는 명령</span>
+
+$ <span class="token function">git</span> log -n<span class="token operator">&lt;</span>숫자<span class="token operator">></span> <span class="token comment"># 전체 커밋 중 최신 n개의 커밋만 살펴봅니다</span>
+
+$ <span class="token function">git</span> log --oneline --graph --decorate -all <span class="token comment"># 자주 사용하는 옵션으로, 간결하게 보여준다</span>
+<span class="token comment"># --oneline : 커밋 메시지를 한 줄로 요약해서 보여줍니다</span>
+<span class="token comment"># --graph : 커밋 옆에 브랜치의 흐름을 그래프로 보여줍니다</span>
+<span class="token comment"># --decorate : 원래는 --decorate=short 옵션을 의미,브랜치와 태그 등의 참조를 간결하게 표시</span>
+<span class="token comment"># --all : all 옵션이 없을 경우 HEAD와 관계없는 옵션은 보여주지 않는다</span></code></pre></div>
+<p>💡 좋은 커밋 메시지의 7가지 규칙</p>
 <ol>
-<li>빠른 속도 (페이지 이동간)</li>
-<li>서버 부하 감소 → 변경된 데이터만 렌더링하기 때문</li>
-<li>사용자 친화적 → 깜빡임 X</li>
+<li>제목과 본문을 빈 줄로 분리한다</li>
+<li>제목은 50자 이내로 쓴다</li>
+<li>제목을 영어로 쓸 경우 첫 글자는 대문자로 쓴다</li>
+<li>제목에는 마침표를 넣지 않는다</li>
+<li>제목을 영어로 쓸 경우 동사원형으로 시작한다</li>
+<li>본문을 72자 단위로 줄바꿈한다.</li>
+<li>어떻게 보다 무엇과 왜를 설명한다.</li>
 </ol>
-</li>
-<li>단점
-<ol>
-<li>SEO 불리
-<ol>
-<li>웹 크롤러는 자바스크립트를 읽지 못한다 → 빈 페이지로 인식된다</li>
-</ol>
-</li>
-<li>초기로딩 속도가 느리다 → 모든 JS파일을 다운 받아야된다.</li>
-</ol>
-</li>
-</ul>
-<h1 id="선택-기준" style="position:relative;"><a href="#%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80" aria-label="선택 기준 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>선택 기준</h1>
-<h3 id="ssr-1" style="position:relative;"><a href="#ssr-1" aria-label="ssr 1 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>SSR</h3>
+<h3 id="reset-명령어로-언스테이징하기" style="position:relative;"><a href="#reset-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A1%9C-%EC%96%B8%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%95%ED%95%98%EA%B8%B0" aria-label="reset 명령어로 언스테이징하기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>reset 명령어로 언스테이징하기</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> reset <span class="token punctuation">[</span>파일명<span class="token punctuation">]</span> <span class="token comment"># 스테이지 영역에 있는 파일을 내립니다</span></code></pre></div>
+<h1 id="원격저장소-관련-cli-명령어" style="position:relative;"><a href="#%EC%9B%90%EA%B2%A9%EC%A0%80%EC%9E%A5%EC%86%8C-%EA%B4%80%EB%A0%A8-cli-%EB%AA%85%EB%A0%B9%EC%96%B4" aria-label="원격저장소 관련 cli 명령어 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>원격저장소 관련 CLI 명령어</h1>
+<table>
+<thead>
+<tr>
+<th>명령어</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>git remote add &#x3C;원격저장소 이름> &#x3C;원격저장소 주소></td>
+<td>원격저장소 등록, 여러개 등록할 수 있지만 통상 첫 번째 원격 저장소를 origin으로 지정</td>
+</tr>
+<tr>
+<td>git remote -v</td>
+<td>원격저장소 목록을 살펴본다</td>
+</tr>
+</tbody>
+</table>
+<h3 id="원격저장소-등록-및-push" style="position:relative;"><a href="#%EC%9B%90%EA%B2%A9%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%93%B1%EB%A1%9D-%EB%B0%8F-push" aria-label="원격저장소 등록 및 push permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>원격저장소 등록 및 push</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> remote <span class="token function">add</span> origin <span class="token operator">&lt;</span>원격저장소 주소<span class="token operator">></span>
+
+$ <span class="token function">git</span> remote -ve
+
+$ <span class="token function">git</span> push</code></pre></div>
 <ul>
-<li>네트워크가 느릴 때</li>
-<li>SEO가 필요 할 때</li>
-<li>최초 로딩이 빨라야하는 사이트를 개발 할 때</li>
-<li>메인 스크립트가 크고 로딩이 매우 느릴 때</li>
+<li>업스트림 에러가 발생 할 수 있다</li>
+<li>로컬저장소의 master 브랜치와 연결된 원격저장소의 브랜치가 없어서 발생하는 오류</li>
 </ul>
-<aside>
-💡 CSR은 메인스크립트가 로딩이 끝나면 API로 데이터 요청을 보낸다.
-</aside>
+<h3 id="git-push-재시도" style="position:relative;"><a href="#git-push-%EC%9E%AC%EC%8B%9C%EB%8F%84" aria-label="git push 재시도 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>git push 재시도</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> push -u origin master</code></pre></div>
 <ul>
-<li>웹 사이트가 상호작용이 별로 없을 때</li>
+<li>브랜치가 연결되었기때문에 이후에는 <em>git push</em>로 수행할 수 있다</li>
 </ul>
-<h3 id="csr-1" style="position:relative;"><a href="#csr-1" aria-label="csr 1 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>CSR</h3>
+<h3 id="git-clone-사용해-보기" style="position:relative;"><a href="#git-clone-%EC%82%AC%EC%9A%A9%ED%95%B4-%EB%B3%B4%EA%B8%B0" aria-label="git clone 사용해 보기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>git clone 사용해 보기</h3>
+<div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">$ <span class="token function">git</span> clone <span class="token operator">&lt;</span>저장소 주소<span class="token operator">></span> <span class="token punctuation">[</span>새로운 폴더명<span class="token punctuation">]</span> <span class="token comment"># 로컬저장소 주소도 클론이 가능하다</span></code></pre></div>
+<div class="table-of-contents">
 <ul>
-<li>네트워크가 빠를 때</li>
-<li>서버의 성능이 좋지 않을 때</li>
-<li>사용자에게 보여줘야 하는 데이터의 양이 많을 때</li>
-<li>메인 스크립트가 가벼울 때</li>
-<li>SEO가 필요하지 않을 때</li>
-<li>사용자와 상호작용할 것들이 많을 떄.
-( 렌더링 되지 않아서 사용자 행동을 막는 것이 경험에 오히려 유리하다)</li>
+<li><a href="#git-%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%B4%88%EA%B8%B0%ED%99%94">Git 저장소 초기화</a></li>
+<li><a href="#%EC%98%B5%EC%85%98-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0">옵션 설정하기</a></li>
+<li><a href="#%EA%B8%B0%EB%B3%B8%EC%A0%81%EC%9D%B8-git-%EB%AA%85%EB%A0%B9%EB%93%A4">기본적인 git 명령들</a></li>
+<li><a href="#cli%EB%A1%9C-log-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0">CLI로 log 살펴보기</a></li>
+<li><a href="#reset-%EB%AA%85%EB%A0%B9%EC%96%B4%EB%A1%9C-%EC%96%B8%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%95%ED%95%98%EA%B8%B0">reset 명령어로 언스테이징하기</a></li>
+<li><a href="#%EC%9B%90%EA%B2%A9%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%93%B1%EB%A1%9D-%EB%B0%8F-push">원격저장소 등록 및 push</a></li>
+<li><a href="#git-push-%EC%9E%AC%EC%8B%9C%EB%8F%84">git push 재시도</a></li>
+<li><a href="#git-clone-%EC%82%AC%EC%9A%A9%ED%95%B4-%EB%B3%B4%EA%B8%B0">git clone 사용해 보기</a></li>
 </ul>
-<h1 id="universal-rendering" style="position:relative;"><a href="#universal-rendering" aria-label="universal rendering permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>*<strong>*Universal Rendering**</strong></h1>
-<aside>
-💡 SSR 과 CSR의 절충안
-</aside>
-<ul>
-<li>초기화면은 SSR로 서버에서 렌더링하여 초기 지연시간을 줄인다.</li>
-<li>이후 부터는 CSR 방식으로 필요한 데이터 부분만 갱신하여 서버의 부하를 줄인다.</li>
-<li>SEO에도 유리하다.</li>
-<li>React는 Next.js Vue는 Nuxt.js라는 프레임워크로 구현할 수 있다</li>
-</ul></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/Framwork/Git/git-and-github/"><div class="direction">이전 글</div><div class="title">(Git) Git Bash를 시작해보자</div></a></div><div class="post-navigator-card-wrapper"></div></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/yangksks">양경섭</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/CS/Web/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-57dbb2510c69b49a61bd.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js" async=""></script><script src="/app-57dbb2510c69b49a61bd.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-bc5faa41d93a2271fdd7.js" async=""></script></body></html>
+</div></div></div><div class="post-navigator"><div class="post-navigator-card-wrapper"><a class="post-card prev" href="/Framwork/Git/git-and-github/"><div class="direction">이전 글</div><div class="title">(Git) Git Bash를 시작해보자</div></a></div><div class="post-navigator-card-wrapper"><a class="post-card next" href="/CS/Web/CSR과 SSR b7a4fb3a62d74fd5af381b49ff1328df/"><div class="direction">다음 글</div><div class="title">(FrontEnd) CSR과 SSR</div></a></div></div></main><footer class="page-footer-wrapper"><p class="page-footer">© <!-- -->2022<!-- --> <a href="https://github.com/yangksks">양경섭</a> powered by<a href="https://github.com/zoomKoding/zoomkoding-gatsby-blog"> zoomkoding-gatsby-blog</a></p></footer><div class="dark-mode-button-wrapper"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium dark-mode-button css-1yxmbwk" tabindex="0" type="button"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeLarge dark-mode-icon css-6flbmm" focusable="false" viewBox="0 0 24 24" aria-hidden="true" data-testid="DarkModeIcon"><path d="M12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9c0-.46-.04-.92-.1-1.36-.98 1.37-2.58 2.26-4.4 2.26-2.98 0-5.4-2.42-5.4-5.4 0-1.81.89-3.42 2.26-4.4-.44-.06-.9-.1-1.36-.1z"></path></svg></button></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/CS/Web/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-cd840d73727c2e366b63.js"],"app":["/app-57dbb2510c69b49a61bd.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-3c26d4b7e3608ed0ece4.js"],"component---src-pages-404-js":["/component---src-pages-404-js-4917da7ef5b541e98a81.js"],"component---src-pages-about-js":["/component---src-pages-about-js-b5804eba3d16afcb3700.js"],"component---src-pages-index-js":["/component---src-pages-index-js-bc882cd03f70c89c8148.js"],"component---src-templates-blog-template-js":["/component---src-templates-blog-template-js-ef83b594aa693e649d30.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-fea460fedd50cffb10cd.js"]};/*]]>*/</script><script src="/polyfill-cd840d73727c2e366b63.js" nomodule=""></script><script src="/component---src-templates-blog-template-js-ef83b594aa693e649d30.js" async=""></script><script src="/f9d3028dbef90a6e9b8db85387d63dd9f4edf538-3528d048b96f92ca0d99.js" async=""></script><script src="/app-57dbb2510c69b49a61bd.js" async=""></script><script src="/framework-0e1bf37de02f7cef2174.js" async=""></script><script src="/webpack-runtime-bc5faa41d93a2271fdd7.js" async=""></script></body></html>
