@@ -15,10 +15,10 @@ module.exports = {
     bio: {
       role: `개발자`,
       description: ['계속해서 배우는', '유저 친화적인', '이로운 것을 만드는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      thumbnail: 'sample.jpg', // Path to the image in the 'asset' folder
     },
     social: {
-      github: `https://github.com/yangksks`, 
+      github: `https://github.com/yangksks`,
       linkedIn: ``, // `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
       email: `yangksks@gmail.com`, // `zoomkoding@gmail.com`,
     },
