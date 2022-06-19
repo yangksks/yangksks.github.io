@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-category-template-js",
+    "path": "/posts/CS",
+    "result": {"pageContext":{"currentCategory":"CS","categories":["All","CS","프레임워크","회고"],"edges":[{"node":{"id":"7bde9e2e-eac3-583d-ad02-09456e0f3193","excerpt":"SSR의 정의와 설명  단계 User가 Website 요청을 보냄 Server는 ‘Ready to Render’ 즉, 즉시 렌더링 가능한 html 파일을 만든다. 클라이언트에 전달되는 순간, 이미 렌더링 준비가 되어있기 때문에 HTML은 즉시 렌더링 된다. 그러나 사이트 자체는 조작 불가능하다. (JavaScript 가 읽히기 전) 클라이언트가 자바스크립트를 다운받는다. 다운 받아지고 있는 사이에 유저는 컨텐츠는 볼 수 있지만 사이트를 조작 할 수는 없다.\n이때의 사용자 조작을 기억하고 있는다. 브라우저가 JavaScript 프레임워크를 실행한다. JS까지 성공적으로 컴파일 되었기 때문에 기억하고 있던 사용자 조작이 실행되고 이제 웹 페이지는 상호작용 가능해진다. CSR의 정의와 설명 Untitled User가 Website 요청을 보냄 CDN이 HTML 파일과 JS로 접근할 수 있는 링크를 클라이언트로 보낸다. 클라이언트는 HTML과 JS를 다운로드 받는다.\n( 이때 SSR과 달…","fields":{"slug":"/CS/Web/"},"frontmatter":{"categories":"CS","title":"(FrontEnd) CSR과 SSR","date":"June 18, 2022"}},"next":{"fields":{"slug":"/Framwork/Git/git-and-github/"}},"previous":null}]}},
+    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
